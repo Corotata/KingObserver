@@ -1,0 +1,22 @@
+{
+  "name": "KingObserver",
+  "version": "0.1.0",
+  "summary": "KingObserver.",
+  "description": "A short description of KingObserver.\nTODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Corotata/KingObserver",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Corotata": "corotata@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Corotata/KingObserver.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KingObserver/Classes/**/*"
+}

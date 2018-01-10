@@ -1,0 +1,16 @@
+# 公有仓库
+source 'https://github.com/CocoaPods/Specs.git'
+## 私有仓库
+source 'https://git.hisir.net/Ligo/LigoPods.git'
+
+use_frameworks!
+
+target 'KingObserver_Example' do
+  pod 'KingObserver', :path => '../'
+
+  target 'KingObserver_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
